@@ -1,0 +1,14 @@
+mmc_private.h:59:29:mmc_berase	0	static
+mmc_private.h:65:21:mmc_bwrite	0	static
+mmc_legacy.c:16:13:find_mmc_device	8	static
+mmc_legacy.c:192:12:mmc_select_hwpartp	8	static
+mmc_legacy.c:213:12:mmc_get_dev	16	static
+mmc_legacy.c:35:5:mmc_get_next_devnum	0	static
+mmc_legacy.c:40:18:mmc_get_blk_desc	0	static
+mmc_legacy.c:45:5:get_mmc_num	0	static
+mmc_legacy.c:50:6:mmc_do_preinit	16	static
+mmc_legacy.c:67:6:mmc_list_init	0	static
+mmc_legacy.c:73:6:mmc_list_add	0	static
+mmc_legacy.c:81:6:print_mmc_devices	32	static
+mmc_legacy.c:142:13:mmc_create	16	static
+mmc_legacy.c:185:6:mmc_destroy	0	static

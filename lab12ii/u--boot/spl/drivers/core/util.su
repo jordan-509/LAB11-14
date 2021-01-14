@@ -1,0 +1,2 @@
+util.c:22:5:list_count_items	0	static
+util.c:33:6:dm_fdt_pre_reloc	16	static

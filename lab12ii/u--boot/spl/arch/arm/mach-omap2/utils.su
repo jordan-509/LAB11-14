@@ -1,0 +1,8 @@
+utils.c:12:13:do_cancel_out	24	static
+utils.c:130:6:omap_set_fastboot_vars	128	static
+utils.c:143:6:cancel_out	16	static
+utils.c:162:13:omap_die_id	0	static
+utils.c:167:6:omap_die_id_serial	56	static
+utils.c:182:6:omap_die_id_get_board_serial	8	static
+utils.c:200:6:omap_die_id_usbethaddr	32	static
+utils.c:226:6:omap_die_id_display	32	static

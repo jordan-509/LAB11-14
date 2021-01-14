@@ -1,0 +1,46 @@
+Rapport 14 
+
+1)on clone l'arborescence Linux principale 
+
+
+
+2)jo509@ubuntu:~/Desktop/lab14/linux$ git branch
+  4.14
+* 4.19
+
+
+4) du -hs ./*  =3.16
+
+
+5) le fichier ARCH est le plus gros fichier 132972  il doit contenir tout les drivers
+
+
+6) dans le répertoire arch/arm/configs on identifie le fichier  bb.org_def config
+
+
+7)make bb.org-def config 
+
+
+8)ls -a , contient la configuration de la carte beagle 
+
+
+9)make gconfig on modifie les options 
+
+10)on desactive Config_prove_locking 
+
+
+11) on vérifie que config_root_Nfs =y
+
+
+12)on modifie le format utilisé pour compresser le noyau 
+
+
+13)on enregistre les modifications que nous avons réalisé  
+
+
+14) on compile notre noyau  pour genrer les fichiers am335x-boneblack.dtb  
+    make -j 4  (cela a pris beaucoup de temps )
+
+
+15) sudo cp zimage /var/lib/tftpboot
+    sudo cp am335x-boneblack.dtb

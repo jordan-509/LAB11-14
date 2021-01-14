@@ -1,0 +1,15 @@
+efi_console.c:527:20:efi_key_notify	0	static
+efi_console.c:332:28:efi_cout_enable_cursor	8	static
+efi_console.c:319:28:efi_cout_set_cursor_position	16	static
+efi_console.c:309:28:efi_cout_clear_screen	8	static
+efi_console.c:291:28:efi_cout_set_attribute	8	static
+efi_console.c:154:28:efi_cout_test_string	8	static
+efi_console.c:101:28:efi_cout_reset	8	static
+efi_console.c:356:28:efi_cin_reset	8	static
+efi_console.c:109:28:efi_cout_output_string	24	dynamic
+efi_console.c:537:20:efi_console_timer_notify	8	static
+efi_console.c:259:28:efi_cout_set_mode	8	static
+efi_console.c:371:13:skip_modifiers.constprop	16	static
+efi_console.c:406:28:efi_cin_read_key_stroke	8	static
+efi_console.c:198:28:efi_cout_query_mode	48	static
+efi_console.c:552:5:efi_console_register	32	static

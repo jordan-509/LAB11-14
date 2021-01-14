@@ -1,0 +1,2 @@
+fat.c:34:12:env_fat_save	131312	static
+fat.c:81:12:env_fat_load	131296	static

@@ -1,0 +1,13 @@
+board.c:276:11:bone_not_connected_to_ac_power.part.0	16	static
+board.c:70:6:do_board_detect	8	static
+board.c:243:5:spl_start_uboot	8	static
+board.c:262:27:get_dpll_ddr_params	8	static
+board.c:291:27:get_dpll_mpu_params	16	static
+board.c:414:6:scale_vcores_generic	16	static
+board.c:447:6:gpi2c_init	8	static
+board.c:460:6:scale_vcores	8	static
+board.c:473:6:set_uart_mux_conf	0	static
+board.c:490:6:set_mux_conf_regs	0	static
+board.c:527:6:sdram_init	16	static
+board.c:614:5:board_init	8	static
+board.c:701:5:board_late_init	16	static

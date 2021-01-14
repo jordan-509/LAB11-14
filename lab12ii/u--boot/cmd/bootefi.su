@@ -1,0 +1,5 @@
+bootefi.c:202:21:efi_install_fdt	416	static
+bootefi.c:249:21:do_bootefi_exec	184	static
+bootefi.c:33:14:efi_init_obj_list	8	static
+bootefi.c:367:12:do_bootefi	24	static
+bootefi.c:497:6:efi_set_bootdev	184	static

@@ -1,0 +1,28 @@
+Rapport lab 11 
+1) On installe la chaine de cross compilation  avec la commande sudo apt install gcc-arm-linux-gnueabi 
+
+
+2) /usr/share/man/man1/arm-linux-gnueabi-gcov.1.gz ( Chemin du cross compilateur )
+
+
+
+3) export CROSS_COMPILE=arm-linux-gnueabi  dans le fichier . bashRC  
+   cela va nous permettre que les variable d'environnement soient visible
+   reconnu par notre systeme a chaque démarrage d'un nouveau terminal 
+
+
+
+4)	jo509@ubuntu:~$ echo $CROSS_COMPILE
+	arm-linux-gnueabi-
+
+
+5) on compile maintenant avec  cross -compile -gcc
+
+
+6)Oui c'est bien le cross compilateur qui est appelé 
+
+
+
+7)Impossible à exécuter car lee fichier My binaire génrer n'est plus compatible avec la
+   machine mais compatible arm7 
+

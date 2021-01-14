@@ -1,0 +1,5 @@
+efi_image_loader.c:151:13:efi_set_code_and_data_type	8	static
+efi_image_loader.c:57:14:efi_print_image_info	16	static
+efi_image_loader.c:78:6:efi_print_image_infos	32	static
+efi_image_loader.c:139:13:invalidate_icache_all	0	static
+efi_image_loader.c:183:7:efi_load_pe	56	static

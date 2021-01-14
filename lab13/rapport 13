@@ -1,0 +1,45 @@
+Rapport 13 
+
+Lab essentiellement sur la carte 
+
+1) on télécharge la documentation sur notre machine 
+
+
+2)On insere la carte micro sd sur le logement correspondant de la carte 
+
+
+4) ttyUSB0 bien présent
+
+ 
+5) apt install picocom  on installe picocom qui  va nous permettre de communiquer avec la carte 
+
+
+6) sudo adduer jo509 dialout 
+
+
+7)u-boot à bien été compillé 
+
+
+10) env defaut -f -a on efface les variable d'environnement U-boot 
+
+
+11) on configure le réseau sur la carte cible beagle board 
+   adress IP de la carte , adresse Ip de l'hote pc ..
+
+
+12) saveenv on sauvegarde nos paramettre de stoackage 
+
+
+15)ens33 : flags =4163<up,BROADCAST,RUNNING,MULTICAST > mtu 1500
+   enxa0cec83000f7 : flags =4163<up,BROADCAST,RUNNING,MULTICAST > mtu 1500
+
+
+
+17) apres configuration on redémarre l'interface ethernet 
+    sudo/ect/init.d/networking restart 
+
+
+18)TFTP 0X8100000 jo.TXT
+
+
+19) 0x8100000

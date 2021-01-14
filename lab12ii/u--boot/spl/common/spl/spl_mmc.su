@@ -1,0 +1,3 @@
+spl_mmc.c:53:5:mmc_load_image_raw_sector	24	static
+spl_mmc.c:281:12:spl_boot_mode	0	static
+spl_mmc.c:300:5:spl_mmc_load_image	24	static

@@ -1,0 +1,6 @@
+label: dos
+label-id: 0x00000000
+device: /dev/sdb
+unit: sectors
+
+/dev/sdb1 : start=        2048, size=     7860224, type=e, bootable

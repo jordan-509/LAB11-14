@@ -1,0 +1,2 @@
+spl_ext.c:10:5:spl_load_image_ext	176	static
+spl_ext.c:67:5:spl_load_image_ext_os	176	static

@@ -1,0 +1,10 @@
+omap24xx_i2c.c:199:12:__omap24_i2c_setspeed	32	static
+omap24xx_i2c.c:117:12:wait_for_bb	16	static
+omap24xx_i2c.c:147:12:wait_for_event	24	static
+omap24xx_i2c.c:180:13:flush_fifo	8	static
+omap24xx_i2c.c:698:20:omap24_get_base.isra.0	8	static
+omap24xx_i2c.c:749:13:omap24_i2c_setspeed	16	static
+omap24xx_i2c.c:740:12:omap24_i2c_write	32	static
+omap24xx_i2c.c:730:12:omap24_i2c_read	32	static
+omap24xx_i2c.c:772:12:omap24_i2c_probe	24	static
+omap24xx_i2c.c:765:13:omap24_i2c_init	48	static

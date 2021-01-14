@@ -1,0 +1,11 @@
+efi_memory.c:55:12:efi_mem_cmp	0	static
+efi_memory.c:241:17:efi_find_free_memory	48	static
+efi_memory.c:149:10:efi_add_memory_map	80	static
+efi_memory.c:286:14:efi_allocate_pages	32	static
+efi_memory.c:336:7:efi_alloc	24	static
+efi_memory.c:356:14:efi_free_pages	24	static
+efi_memory.c:377:14:efi_allocate_pool	24	static
+efi_memory.c:406:14:efi_free_pool	0	static
+efi_memory.c:434:14:efi_get_memory_map	24	static
+efi_memory.c:479:13:efi_add_known_memory	32	static
+efi_memory.c:495:5:efi_memory_init	24	static

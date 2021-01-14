@@ -1,0 +1,44 @@
+Rapport 12 
+
+1) on télécharge the mainline U-boot sources sur notre machine 
+
+
+2) on change la branche vers v2018.05  avec git checkout v2018.05
+
+
+3)jo509@ubuntu:~/Desktop/lab12/u-boot$ git branch
+* (HEAD detached at v2018.05)
+  master
+
+
+4) Ls * |grep bone black_def 
+
+
+5)ls -lrt  | cat .config 
+  ce fichier est utile au bootloader il contient les périphériques on va pouvoir si on veut activé les configuration (ethernet, hdmi ..) 
+
+
+6)nous arrivons bien à generer les deux fichier MLO et u-boot.img
+
+7) on connecte la carte micro-SD au pc 
+
+
+8) permet de rendre accessible une unité de stockage , on utilise un repertoire deja existant et on y creer un point de montage 
+
+
+9)dmesg permet de voir ce qu'a fait le noyau sd 33:0:. removable disk
+
+
+10) /dev/sdb1
+
+
+11) sudo dd if=/dev/zero of=/dev/peripherqiue bs=1024 count=1024
+
+
+12) sudo CFdisk/dev/dsb -boot (on creer la nouvelle partition )
+
+
+13) sudo mkfs.vfat -F 32 /dev/????? -n boot
+
+
+14)on copie les deux fichiers généres sur la partition 

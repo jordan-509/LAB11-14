@@ -1,0 +1,15 @@
+efi_runtime.c:140:34:efi_reset_system	0	static
+efi_runtime.c:154:42:efi_get_time	0	static
+efi_runtime.c:391:42:efi_unimplemented	0	static
+efi_runtime.c:396:42:efi_device_error	0	static
+efi_runtime.c:401:42:efi_invalid_parameter	0	static
+efi_runtime.c:105:28:efi_get_time_boottime	0	static
+efi_runtime.c:406:35:efi_update_capsule	0	static
+efi_runtime.c:414:35:efi_query_capsule_caps	0	static
+efi_runtime.c:423:35:efi_query_variable_info	0	static
+efi_runtime.c:72:20:efi_reset_system_boottime	24	static
+efi_runtime.c:149:21:efi_reset_system_init	0	static
+efi_runtime.c:162:21:efi_get_time_init	0	static
+efi_runtime.c:240:6:efi_runtime_relocate	48	static
+efi_runtime.c:290:28:efi_set_virtual_address_map	48	static
+efi_runtime.c:349:14:efi_add_runtime_mmio	40	static
